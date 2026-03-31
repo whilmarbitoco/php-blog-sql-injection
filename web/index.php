@@ -10,7 +10,7 @@ session_start();
 </head>
 <body>
     <nav>
-        <a class="brand" href="index.php">⚠ Mini DVWA</a>
+        <a class="brand" href="index.php">Mini DVWA</a>
         <div class="nav-links">
             <?php if (isset($_SESSION['user'])): ?>
                 <a href="dashboard.php">New Post</a>
